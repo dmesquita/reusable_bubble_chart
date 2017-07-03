@@ -88,7 +88,7 @@ function bubbleChart() {
 
 
     chart.columnForColors = function(value) {
-        if (!arguments.columnForColors) {
+        if (!arguments.length) {
             return columnForColors;
         }
         columnForColors = value;
@@ -96,7 +96,7 @@ function bubbleChart() {
     };
 
     chart.columnForRadius = function(value) {
-        if (!arguments.columnForRadius) {
+        if (!arguments.length) {
             return columnForRadius;
         }
         columnForRadius = value;
