@@ -1,18 +1,25 @@
-/*
-* Original Author: Deborah Mesquita
-* Source: 
-*	https://bl.ocks.org/dmesquita/37d8efdb3d854db8469af4679b8f984a
-*	https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46
-* Modified by: Taylor White whitetc2@gmail.com
-* Modified on: July 4, 2017
-* Purpose:
-* 	Generate a reusable bubble chart
-*/
-
-
 /**
+ * Purpose:
+ * Generate a reusable bubble chart
+ * 
  * Instantiate the settings before rendering the bubble chart
+ * Generate a reusable bubble chart using d3.v4.js on a dataset loaded through D3.
+ * 
+ * Original Author: Deborah Mesquita
+ * Source: 
+ * 
+ * {@link https://bl.ocks.org/dmesquita/37d8efdb3d854db8469af4679b8f984a Deborah Mesquita's block}
+ *	
+ * {@link https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46 Tutorial and explanation}
+ * 
+ * {@link https://taylorchasewhite.github.io/babyNames/ Live demo}
+ * @author Deborah Mesquita
+ * @author Taylor White <whitetc2@gmail.com>
+ * @since  07.04.17
+ * @summary  Generate a reusable bubble chart
+ * @requires d3.v4.js
  * @class
+ * 
  * @example
  * var chart = bubbleChart(); // instantiate the chart
  * 
