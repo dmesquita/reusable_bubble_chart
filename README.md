@@ -1,7 +1,13 @@
+[![](babyNamesScreenshot.png)](https://taylorchasewhite.github.io/babyNames/)]
 <a name="bubbleChart"></a>
 
 ## bubbleChart
 **Kind**: global class  
+**Summary**: Generate a reusable bubble chart  
+**Requires**: <code>module:d3.v4.js</code>  
+**Since**: 07.04.17  
+**Author**: Deborah Mesquita  
+**Author**: Taylor White <whitetc2@gmail.com>  
 
 * [bubbleChart](#bubbleChart)
     * [new bubbleChart()](#new_bubbleChart_new)
@@ -23,7 +29,18 @@
 <a name="new_bubbleChart_new"></a>
 
 ### new bubbleChart()
+Purpose:
+Generate a reusable bubble chart
+
 Instantiate the settings before rendering the bubble chart
+Generate a reusable bubble chart using d3.v4.js on a dataset loaded through D3.
+
+Original Author: Deborah Mesquita
+
+Source: 
+- [Deborah Mesquita's block](https://bl.ocks.org/dmesquita/37d8efdb3d854db8469af4679b8f984a)
+- [Tutorial and explanation](https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46)
+- [Live demo](https://taylorchasewhite.github.io/babyNames/)
 
 **Returns**: Chart function so that you can render the chart when ready  
 **Example**  
