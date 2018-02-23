@@ -63,7 +63,7 @@ function bubbleChart() {
 	 * @param {string} selection - The div ID that you want to render in 
 	 */
 	function chart(selection) {
-		var data = selection.enter().data();
+		var data = selection.datum();
 		chartSelection=selection;
 		var div = selection,
 		svg = div.selectAll('svg');

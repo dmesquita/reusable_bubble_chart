@@ -12,7 +12,8 @@
           throw error;
       }
       var chart = bubbleChart().width(600).height(400);
-      d3.select('#chart').data(data).call(chart);
+      // selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+      d3.select('#chart').datum(data).call(chart);
     });
 
 </script>
